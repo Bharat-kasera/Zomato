@@ -14,7 +14,7 @@
 
 ## 🤖 Introduction
 
-Zomato Clone is a **feature-rich food delivery application** that allows users to browse restaurants, explore menus, and place orders. This app incorporates a multi-cart system, real-time tracking, and an optimized user experience for multi-vendor support.
+Zomato Clone is a **feature-rich food delivery application** that allows users to browse restaurants, explore menus. This app incorporates a multi-cart system, and an optimized user experience for multi-vendor support.
 
 ---
 
@@ -26,9 +26,6 @@ Zomato Clone is a **feature-rich food delivery application** that allows users t
 - **React Native Reanimated** for smooth animations
 - **Node.js** for backend APIs
 - **MongoDB** for database management
-- **Stripe** for payment integration
-- **Expo** for streamlined development workflow
-
 ---
 
 ## 🚀 Features
@@ -36,24 +33,5 @@ Zomato Clone is a **feature-rich food delivery application** that allows users t
 - Browse restaurants and menus
 - Search and filter options
 - Multi-cart functionality for simultaneous vendor orders
-- Secure payment gateway via Stripe
-- Real-time order tracking
-- User authentication and profile management
-- Vendor dashboard for managing menus and orders
-
 ---
 
-## 🛠️ Getting Started
-
-> **Note:** Ensure your system is set up for React Native development. Follow the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) guide before proceeding.
-
-### Step 1: Install Dependencies
-
-Run the following command in your project root to install required dependencies:
-
-```bash
-# using npm
-npm install
-
-# OR using Yarn
-yarn install
