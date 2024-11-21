@@ -1,79 +1,59 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<div align="center">
 
-# Getting Started
+<div>
+  <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/-Redux_Toolkit-black?style=for-the-badge&logoColor=white&logo=redux&color=764ABC" alt="Redux Toolkit" />
+  <img src="https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logoColor=white&logo=node.js&color=339933" alt="Node.js" />
+  <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="MongoDB" />
+</div>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+<h3 align="center">🍽️ Zomato Clone - Full Stack React Native App</h3>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+</div>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## 🤖 Introduction
+
+Zomato Clone is a **feature-rich food delivery application** that allows users to browse restaurants, explore menus, and place orders. This app incorporates a multi-cart system, real-time tracking, and an optimized user experience for multi-vendor support.
+
+---
+
+## ⚙️ Tech Stack
+
+- **React Native CLI**
+- **Redux Toolkit** for state management
+- **React Native Unistyles** for consistent styling
+- **React Native Reanimated** for smooth animations
+- **Node.js** for backend APIs
+- **MongoDB** for database management
+- **Stripe** for payment integration
+- **Expo** for streamlined development workflow
+
+---
+
+## 🚀 Features
+
+- Browse restaurants and menus
+- Search and filter options
+- Multi-cart functionality for simultaneous vendor orders
+- Secure payment gateway via Stripe
+- Real-time order tracking
+- User authentication and profile management
+- Vendor dashboard for managing menus and orders
+
+---
+
+## 🛠️ Getting Started
+
+> **Note:** Ensure your system is set up for React Native development. Follow the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) guide before proceeding.
+
+### Step 1: Install Dependencies
+
+Run the following command in your project root to install required dependencies:
 
 ```bash
 # using npm
-npm start
+npm install
 
 # OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+yarn install
